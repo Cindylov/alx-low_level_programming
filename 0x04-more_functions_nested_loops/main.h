@@ -7,6 +7,6 @@ void positive_or_negative(int i);
 int main(void);
 int _isupper(int c);
 int _isdigit(int c);
-nt mul(int a, int b);
+int mul(int a, int b);
 
 #endif /* MAIN_H */

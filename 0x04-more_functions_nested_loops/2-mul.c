@@ -2,7 +2,10 @@
 #include <stdio.h>
 
 /**
- * multiply two integer
+ * mul - multiply two integer
+ * @a: first number
+ * @b: second number
+ * Return: int
  */
 int mul (int a, int b)
 {
