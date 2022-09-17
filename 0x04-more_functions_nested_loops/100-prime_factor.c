@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	unsigned long num = 612852475143;
@@ -19,4 +23,5 @@ int main(void)
 			break;
 	}
 	printf("%d\n", divisor);
+	return (0);
 }
