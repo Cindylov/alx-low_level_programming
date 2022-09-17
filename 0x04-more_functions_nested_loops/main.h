@@ -8,5 +8,6 @@ int main(void);
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
-
-#endif /* MAIN_H */
+void print_number(int n);
+(endint n);
+ /* MAIN_H */
