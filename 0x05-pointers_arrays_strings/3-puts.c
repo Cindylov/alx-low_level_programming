@@ -3,13 +3,13 @@
 /**
  * _puts - prints a string, followed by a new line.
  * @str: input string to print.
- * @str: "Holberton"
- * @str: "Lorem ipsum.."
- * @str " ";
- * Return: 0 (Success)
+ *  Return: 0 (Success)
 */
 void _puts(char *str)
 {
+	str = "Holberton.h"
+		str = "Lorem ipusm..."
+		str = " ";
 	while (*str != '\0')
 	{
 		_putchar(*str);
