@@ -3,6 +3,9 @@
 /**
  * _puts - prints a string, followed by a new line.
  * @str: input string to print.
+ * @str: "Holberton"
+ * @str: "Lorem ipsum.."
+ * @str " ";
  * Return: 0 (Success)
 */
 void _puts(char *str)
