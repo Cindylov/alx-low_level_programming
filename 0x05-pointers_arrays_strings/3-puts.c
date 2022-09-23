@@ -1,19 +1,12 @@
 #include "main.h"
-#include "holberton.h"
+#include <stdio.h>
+
 /**
- * _puts - prints a string, followed by a new line.
- * @str: input string to print.
- *  Return: 0 (Success)
-*/
+ * _puts - prints a string
+ * @str: string to print out
+ * Return: words
+ */
 void _puts(char *str)
 {
-	str = "Holberton.h"
-		str = "Lorem ipusm..."
-		str = " ";
-	while (*str != '\0')
-	{
-		_putchar(*str);
-		str++;
-	}
-	_putchar('\n');
+	printf("%s\n", str);
 }
