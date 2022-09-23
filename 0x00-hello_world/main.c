@@ -7,6 +7,5 @@
  */
 int main(void)
 {
-	$CFILE
 	return (0);
 }
