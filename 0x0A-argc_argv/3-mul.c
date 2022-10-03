@@ -1,23 +1,35 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main -  print the result of the multiplication
- * @argc: Argument count
- * @argv: arrgument vector
- * Return: 0 or 1
+ * main - Entry point
+ *
+ * @argc: First arguement of the main function
+ *
+ * @argv: Second arguement of the main function
+ *
+ * Return: 0 if success, 1 if error
  */
+
 int main(int argc, char *argv[])
 {
-	int i = argc;
-	int result = argv[1] * argv[2];
-	char s[] = Error;
+	int i, product = 1;
 
-	if (i < 1)
-		printf("%s\n", *s);
-	else
-		printf("%d\n", result);
-
-	return (1);
+	if (argc)
+	{
+		if (argc < 3)
+		{
+			printf("Error\n");
+			return (1);
+		}
+		else
+		{
+			for (i = 1; i < argc; i++)
+			{
+				product *= atoi(argv[i]);
+			}
+			printf("%d\n", product);
+		}
+	}
+	return (0);
 }
